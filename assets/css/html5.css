@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* main wwe start*/
+.wwe{
+    height: 100vh;
+    width: 100%;
+}
+/* main wwe end */
+
+/* nav header start */
+nav{
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(195, 191, 191);
+    border-radius: 10px;
+}
+nav ul{
+    list-style: none;
+    padding-top: 10px;
+}
+nav ul li {
+    display: inline;
+    justify-content: space-around;
+
+}
+nav ul li a{
+     text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 10px ;
+}
+nav ul li a:hover{
+    background-color: aliceblue;
+    color: blue;
+    border-radius: 8px ;
+}
+
+/* nav header end */
+.pot{
+    height: 130px;
+    width: 50%;
+    background-image: url(../media/WhatsApp\ Image\ 2024-06-19\ at\ 12.04.32_667225e1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    background-color:rgb(45, 44, 44);
+    color: orange;
+    font-size: 2rem;
+    border-radius: 8px;
+    padding-left: 1rem;
+}
+ h1 span{
+    background-color: rgb(223, 21, 21);
+    color: white; 
+}
+.logo{
+    display: flex;
+   
+}
+.mainkid{
+    display: flex;
+}
+.parent{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+.as{
+    background-color: rgb(124, 123, 123);
+    color: white;
+    font-size: x-large;
+}
+.aa{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+.aaas{  
+    align-items: end;
+}
+.dd a{
+    color: rgb(228, 98, 6);
+}
+.bbn{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+.bbm{
+    flex-wrap: wrap;
+}
+ a{
+    color: rgb(226, 98, 6);
+}
+.ddfd{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+.eeer{
+   
+    flex-wrap: wrap;
+}
+.zxcv a{
+    color: rgb(226, 98, 6);
+}
+.main{
+    background-color: rgb(228, 220, 220);
+    padding-top: 0.5rem;
+    padding: 1rem;
+}
+.ccvv{
+    font-size: small;
+}
+.ccvv h1{
+    padding: 1rem;
+}
+@media(max-width:1024px) {
+    .mainkid{
+        width: 100%;
+    }
+    
+}
+@media(max-width:768px) {
+    
+    .mainkid{
+        display: block;
+        width: 100%;
+    }
+}
+@media(max-width:425) {
+       .parent{
+        display: block;
+        width: 100%;
+       }
+}
+@media (max-width:425) {
+    .aa{
+        display: block;
+    }
+    
+}
+@media(max-width:320) {
+    .parent{
+        display: block;
+        width: 100%;
+    }
+    
+}
+.ppp ul li a{
+    text-decoration: none;
+    padding-left: 2rem;
+}
+.ppp ul li{
+    list-style: none;
+    padding: 0.5rem;
+}
+.ppp{
+
+    padding: 2rem;
+}
